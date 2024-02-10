@@ -1,0 +1,61 @@
+name: capuccino
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+      - assets/images/bean.jpg
+      - assets/images/arrow_left.jpg
+      - assets/images/heart.jpg
+      - assets/images/coffee_img.jpg
+      - assets/images/milk.jpg  
+  
+  fonts:
+      - family: Sora
+        fonts:
+          - asset: fonts/Sora-Light.ttf
+          - asset: fonts/Sora-ExtraBold.ttf
+          - asset: fonts/Sora-Thin.ttf
+          - asset: fonts/Sora-Medium.ttf
+          - asset: fonts/Sora-SemiBold.ttf
+          - asset: fonts/Sora-Bold.ttf
+          - asset: fonts/Sora-ExtraLight.ttf
+          - asset: fonts/Sora-Regular.ttf
