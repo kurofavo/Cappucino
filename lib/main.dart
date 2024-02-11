@@ -53,6 +53,7 @@ class ViewScreen extends StatelessWidget {
             SizedBox(height: 10.0),
             SizeComponent(),
             CoffeeSizeComponent(sizes: ['S', 'M', 'L'],),
+            CoffeePrice(),
           ],
         ),
       ),
@@ -354,6 +355,71 @@ class CoffeeSizeComponent extends StatelessWidget {
             ),
           );
         }).toList(),
+      ),
+    );
+  }
+}
+
+class CoffeePrice extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(left: 10.0, top: 25.0),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(left: .5, bottom: 5.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Text(
+                      "Price",
+                      style: TextStyle(
+                        fontSize: 12.0,
+                        color: Colors.grey,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Row(
+                children: [
+                  Text(
+                    "\$ 4.53",
+                    style: TextStyle(
+                      fontSize: 14.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: "Sora",
+                      color: Color.fromARGB(218, 144, 65, 36),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+          Container(
+            width: 190.0,
+            height: 45.0,
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: Color.fromARGB(218, 144, 65, 36),
+              border: Border.all(style: BorderStyle.none, color: Colors.grey),
+              borderRadius: BorderRadius.circular(10),
+            ),
+            child: Text(
+              "Buy Now",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontFamily: "Sora",
+                fontSize: 14.0,
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
