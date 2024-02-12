@@ -20,9 +20,8 @@ The code is broken down to components for each feature of the application. A com
 
 ## Image of project final look
 
-<div style="display: flex; justify-content: center;">
-    <img src="assets/imges/cappucinoimage.jpeg" alt="cappucino image" style="width: 400px; height: 300px; margin-right: 10px;">
-</div>
+![cappucinoimage](https://github.com/kurofavo/Cappucino/assets/119840406/aed38cbc-a0c6-4e94-86d3-5ade82637147)
+
 
 ## Project Requirements
 In order to successfully run this project you need to make certain installations
