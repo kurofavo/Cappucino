@@ -21,7 +21,7 @@ The code is broken down to components for each feature of the application. A com
 ## Image of project final look
 
 <div style="display: flex; justify-content: center;">
-    <img src=".assets/img/cappucinoimage.jpeg" alt="landing-page" style="width: 400px; height: 300px; margin-right: 10px;">
+    <img src="assets/img/cappucinoimage.jpeg" alt="cappucino image" style="width: 400px; height: 300px; margin-right: 10px;">
 </div>
 
 ## Project Requirements
